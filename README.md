@@ -2,12 +2,19 @@
 
 ## Armadillo package setup
 * download http://arma.sourceforge.net/download.html   Stable Version->armadillo-6.500.4.tar.gz
+
 	tar xvf armadillo-6.400.4.tar.gz 
+
 	cd armadillo-6.400.4.tar.gz 
+
 	cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr .
+
 	make
+
 	sudo make install
+
 ## add line in cmake file
+
 * find_package(Armadillo)
 * 	-- ZACH : Armadillo_DIR: /usr/share/Armadillo/CMake
 * 	-- ZACH : ARMADILLO_INCLUDE_DIR: /usr/include
