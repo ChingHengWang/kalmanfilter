@@ -30,7 +30,6 @@
 * include
 
 		#include <armadillo>
-
 		using namespace arma;
 
 * declaration
@@ -71,3 +70,8 @@
 		   H<<1<<0<<endr;
 		   R<<0.1<<endr;
 		   I<<1<<0<<endr<<0<<1<<endr;
+
+* use kalman
+   	
+		KalmanFilter();
+
