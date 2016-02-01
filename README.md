@@ -13,7 +13,7 @@
 
 	sudo make install
 
-## add line in cmake file
+## Add line in cmake file
 
 * find_package(Armadillo)
 * 	-- ZACH : Armadillo_DIR: /usr/share/Armadillo/CMake
