@@ -3,15 +3,15 @@
 ## Armadillo package setup
 * download http://arma.sourceforge.net/download.html   Stable Version->armadillo-6.500.4.tar.gz
 
-	tar xvf armadillo-6.400.4.tar.gz 
+		tar xvf armadillo-6.400.4.tar.gz 
 
-	cd armadillo-6.400.4.tar.gz 
+		cd armadillo-6.400.4.tar.gz 
 
-	cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr .
+		cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr .
 
-	make
+		make
 
-	sudo make install
+		sudo make install
 
 ## Add line in cmake file
 
@@ -23,4 +23,4 @@
 * add_executable (example src/example.cpp)
 * target_link_libraries( example ${catkin_LIBRARIES} ${ARMADILLO_LIBRARIES})
 
-	catkin_make
+		catkin_make
