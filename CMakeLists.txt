@@ -123,6 +123,10 @@ catkin_package(
 include_directories(
   ${catkin_INCLUDE_DIRS} ${ARMADILLO_INCLUDE_DIR}
 )
+
+MESSAGE( STATUS "ZACH : catkin_INCLUDE_DIRS " ${catkin_INCLUDE_DIRS} )
+
+
 add_executable (kalmanfilter src/kalmanfilter.cpp)
 target_link_libraries( kalmanfilter ${catkin_LIBRARIES} ${ARMADILLO_LIBRARIES})
 #MESSAGE( STATUS "ZACH : ARMADILLO_INCLUDE_DIR: " ${ARMADILLO_INCLUDE_DIR} )
